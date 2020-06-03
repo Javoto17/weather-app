@@ -1,0 +1,13 @@
+.button {
+  @include theme-aware("background", "color-primary");
+  color: #fff;
+  border-radius: 8px;
+  outline: none;
+  border: 0px;
+  padding: 8px 12px;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}

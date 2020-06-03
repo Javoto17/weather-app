@@ -8,7 +8,7 @@ import { getForecast } from '../../services/forecast'
 function * fetchForecast ({ payload }) {
   try {
     const data = yield call(getForecast, payload)
-    yield delay(3000)
+    yield delay(1500)
     yield put(a.fetchForeCastSuccess(data))
   } catch (error) {}
 }

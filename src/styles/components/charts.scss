@@ -1,0 +1,17 @@
+.chart-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  & .chart-title {
+    flex: 0.8;
+    font-size: 24px;
+    @include theme-aware("color", "color-primary");
+    text-align: center;
+    text-transform: capitalize;
+  }
+  & .chart-button {
+    flex: 0.1;
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -4,9 +4,10 @@
 .Card-wrapper {
   @include theme-aware("border-radius", "border-radius-card");
   @include theme-aware("background", "color-card");
-}
+  margin: 16px 8px;
 
-.Card-content {
-  padding: 8px;
-  @include theme-aware("color", "color-text-primary");
+  & .Card-content {
+    padding: 8px;
+    @include theme-aware("color", "color-text-primary");
+  }
 }

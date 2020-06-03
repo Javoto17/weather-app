@@ -1,2 +1,6 @@
-export const FETCH_FORECAST = 'weatherapp/FETCH_ORECAST'
+export const FETCH_FORECAST = 'weatherapp/FETCH_FORECAST'
 export const FETCH_FORECAST_SUCCESS = 'weatherapp/FETCH_FORECAST_SUCCESS'
+export const UPDATE_PRESSURE = 'weatherapp/UPDATE_PRESSURE'
+export const UPDATE_TEMPERATURES = 'weatherapp/UPDATE_TEMPERATURES'
+export const UPDATE_HUMIDITY = 'weatherapp/UPDATE_HUMIDITY'
+export const UPDATE_WIND = 'weatherapp/UPDATE_WIND'
