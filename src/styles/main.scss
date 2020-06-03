@@ -1,0 +1,36 @@
+@import "./_mixins";
+@import "./_variables";
+@import "./_theme";
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+
+  @include min-media($xs) {
+    max-width: $sm;
+  }
+
+  @include min-media($sm) {
+    max-width: $sm;
+  }
+
+  @include min-media($md) {
+    max-width: $md;
+  }
+
+  @include min-media($lg) {
+    max-width: $lg;
+  }
+
+  @include min-media($xl) {
+    max-width: $lg;
+  }
+}
+
+body {
+  @include theme-aware("background", "color-background");
+}
+
+.Home-title {
+  @include theme-aware("color", "color-text-primary");
+}

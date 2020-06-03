@@ -1,0 +1,12 @@
+@import "../../styles/_mixins";
+@import "../../styles/_theme";
+
+.Card-wrapper {
+  @include theme-aware("border-radius", "border-radius-card");
+  @include theme-aware("background", "color-card");
+}
+
+.Card-content {
+  padding: 8px;
+  @include theme-aware("color", "color-text-primary");
+}

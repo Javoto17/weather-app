@@ -1,0 +1,20 @@
+$themes: (
+  light: (
+    color-background: #fafafa,
+    color-card: #fff,
+    color-primary: #f4605b,
+    color-secondary: #386ae8,
+    color-text-primary: #243640,
+    color-text-secondary: rgba(52, 77, 91, 0.8),
+    border-radius-card: 6px,
+  ),
+  dark: (
+    color-background: #070709,
+    color-card: #1e1e27,
+    color-primary: #31e184,
+    color-secondary: #386ae8,
+    color-text-primary: #ffffff,
+    color-text-secondary: #8a8a8c,
+    border-radius-card: 6px,
+  ),
+);
